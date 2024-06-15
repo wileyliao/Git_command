@@ -1,8 +1,7 @@
-# Git_command <br>
+# Git_command
+## Extract file from URL 
+### git clone url 
 
-## Extract file from URL <br>
-### git clone url <br>
-<br>
-## Add URL for the folder <br>
-git init <br>
-git remote add origin URL <br>
+## Add URL for the folder 
+git init 
+git remote add origin URL 
