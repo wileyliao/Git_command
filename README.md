@@ -1,6 +1,6 @@
 # Git_command
 ## Extract file from URL 
-### git clone url 
+git clone url 
 
 ## Add URL for the folder 
 git init 
