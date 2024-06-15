@@ -1,6 +1,6 @@
 # Git_command
 
-## 初始設置 (全局設置)
+## 初始設置 (全局設置) <br>
 git config --global user.name "user_name"
 git config --global user.email "user_email"
 git config --global --list (check global setting)
