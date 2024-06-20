@@ -5,19 +5,18 @@
 >- git config --global user.email "user_email"
 >- git config --global --list (check global setting)
 
-
-
 ## **初始設置 (特定資料夾)**
 >- cd path/to/your/repository
 >- git config user.name "user_name"
 >- git config user.email "user_email"
 >- git config --list (check local setting)
 
-
-
 ## **Clone file from URL**
 >- git clone url
 
-## **Add URL for the folder**
+## **Add URL for the folder (New_file)**
 >- git init
 >- git remote add origin URL
+
+## **Add URL for the folder (New_file)**
+>-git remote set-url origin URL
