@@ -18,5 +18,5 @@
 >- git init
 >- git remote add origin URL
 
-## **Add URL for the folder (New_file)**
+## **Change URL for the folder **
 >-git remote set-url origin URL
