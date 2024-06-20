@@ -12,11 +12,11 @@
 >- git config --list (check local setting)
 
 ## **Clone file from URL**
->- git clone url
+>- git clone URL
 
 ## **Add URL for the folder (New_file)**
 >- git init
 >- git remote add origin URL
 
 ## **Change URL for the folder **
->-git remote set-url origin URL
+>- git remote set-url origin URL
