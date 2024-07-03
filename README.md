@@ -18,10 +18,11 @@ git config --list (check local setting)
 ## **Clone file from URL**
 `git clone URL`
 
-## **Set URL for the folder**
+## **Set URL for the new folder**
 ```
 git init
 git remote add origin URL
+git pull origin main --allow-unrelated-histories
 ```
 
 ## **Change URL for the folder**
