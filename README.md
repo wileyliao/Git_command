@@ -18,6 +18,10 @@ git config --list (check local setting)
 ## **Clone file from URL**
 `git clone URL`
 
+## **Set URL for the folder**
+`git init`<br>
+`git remote add origin URL`
+
 ## **Change URL for the folder**
 `git remote set-url origin URL`
 
