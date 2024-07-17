@@ -23,6 +23,8 @@ git config --list (check local setting)
 git init
 git remote add origin URL
 git pull origin main --allow-unrelated-histories
+#Check url
+git remote -v
 ```
 
 ## **Change URL for the folder**
