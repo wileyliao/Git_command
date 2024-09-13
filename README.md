@@ -33,7 +33,7 @@ git remote -v
 ## **Add URL for the folder**
 `git remote add <new_remote_name> URL`
 
-## **Add File to git and push
+## **Add File to git and push**
 `git add .` 全部加入
 `git add <file name> `
 `git commit -m "commit message"`
