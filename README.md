@@ -35,7 +35,7 @@ git remote -v
 
 ## **Add File to git and push**
 ```
-git add . # 全部加入
+git add -u # 加入全部有更動的檔案
 git add <file name> # 加入特定檔案
 git commit -m "commit message" # 輸入commit訊息
 git push origin main # 推送
