@@ -34,10 +34,12 @@ git remote -v
 `git remote add <new_remote_name> URL`
 
 ## **Add File to git and push**
-`git add .` 全部加入
-`git add <file name> `
-`git commit -m "commit message"`
-`git push origin main`
+```
+git add . # 全部加入
+git add <file name> # 加入特定檔案
+git commit -m "commit message" # 輸入commit訊息
+git push origin main # 推送
+```
 
 **設定不同的 fetch 和 push URL**
 指定不同的遠端拉取或推送數據(需指定遠端的名稱 & 分支)<br>
