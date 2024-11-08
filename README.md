@@ -39,6 +39,8 @@ git add -u # 加入全部有更動的檔案
 git add <file name> # 加入特定檔案
 git commit -m "commit message" # 輸入commit訊息
 git push origin main # 推送
+
+git rm --cached filename.format # 移除追蹤的檔案
 ```
 
 **設定不同的 fetch 和 push URL**
