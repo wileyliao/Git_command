@@ -63,3 +63,25 @@ git push backup main
 # 同步到 mirror
 git push mirror main
 ```
+
+
+## **Branch Setting**
+```
+# 確保分支列表為最新
+git fetch
+
+# 查看本地（local）分支
+git branch
+
+# 查看所有遠端（remote）分支
+git branch -r
+
+# 查看本地 + 遠端的所有分支
+git branch -a
+
+# 本地新建一個分支並追蹤遠端的分支
+git checkout -b new_branch_name origin/new_branch_name
+git switch -c new_branch_name origin/new_branch_name (same)
+
+
+```
