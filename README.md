@@ -63,7 +63,8 @@ git push backup main
 # 同步到 mirror
 git push mirror main
 ```
-
+## 暴力pull 強制對齊origin
+`git fetch origin; git reset --hard origin/main; git clean -fd`
 
 ## **Branch Setting**
 ```
