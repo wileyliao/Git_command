@@ -1,14 +1,21 @@
 # Git_command
 
-## **初始設置 (全局設置)**
+## Gitignore template
 ```
+.idea/
+.venv/
+__pycache__
+```
+
+## **初始設置 (全局設置)**
+```powershell
 git config --global user.name "user_name"
 git config --global user.email "user_email"
-git config --global --list (check global setting)
+git config --global --list # check global setting
 ```
 
 ## **初始設置 (特定資料夾)**
-```
+```powershell
 cd path/to/your/repository
 git config user.name "user_name"
 git config user.email "user_email"
@@ -16,10 +23,12 @@ git config --list (check local setting)
 ```
 
 ## **Clone file from URL**
-`git clone URL`
+```powershell
+git clone URL
+```
 
 ## **Set URL for the new folder**
-```
+```powershell
 git init
 git remote add origin URL
 git pull origin main --allow-unrelated-histories
@@ -29,13 +38,16 @@ git remote -v
 ```
 
 ## **Change URL for the folder**
-`git remote set-url origin URL`
-
+```powershell
+git remote set-url origin URL
+```
 ## **Add URL for the folder**
-`git remote add <new_remote_name> URL`
+```powershell
+git remote add <new_remote_name> URL
+```
 
 ## **Add File to git and push**
-```
+```powershell
 git add -u # 加入全部有更動的檔案
 git add <file name> # 加入特定檔案
 git commit -m "commit message" # 輸入commit訊息
@@ -46,7 +58,7 @@ git rm --cached filename.format # 移除追蹤的檔案
 
 **設定不同的 fetch 和 push URL**
 指定不同的遠端拉取或推送數據(需指定遠端的名稱 & 分支)<br>
-```
+```powershell
 git pull <remote-name_A> <branch-name>
 git push <remote-name_B> <branch-name>
 ```
@@ -54,7 +66,7 @@ git push <remote-name_B> <branch-name>
 **示例:**
 (origin, backup, mirror)對應URL：(origin_URL, backup_URL, mirror_URL)
 
-```
+```powershell
 # 拉取自 origin
 git pull origin main
 
@@ -65,10 +77,12 @@ git push backup main
 git push mirror main
 ```
 ## 暴力pull 強制對齊origin
-`git fetch origin; git reset --hard origin/main; git clean -fd`
+``` powershell
+git fetch origin; git reset --hard origin/main; git clean -fd
+```
 
 ## **Branch Setting**
-```
+```powershell
 # 確保分支列表為最新
 git fetch
 
@@ -84,6 +98,5 @@ git branch -a
 # 本地新建一個分支並追蹤遠端的分支
 git checkout -b new_branch_name origin/new_branch_name
 git switch -c new_branch_name origin/new_branch_name (same)
-
 
 ```
