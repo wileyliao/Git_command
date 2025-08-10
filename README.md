@@ -32,7 +32,7 @@ git clone URL
 git init
 git remote add origin URL
 git pull origin main --allow-unrelated-histories
-git push --set-upstream origin master #若還沒建立分支對應
+
 #Check url
 git remote -v
 ```
@@ -52,7 +52,7 @@ git add -u # 加入全部有更動的檔案
 git add <file name> # 加入特定檔案
 git commit -m "commit message" # 輸入commit訊息
 git push origin main # 推送
-
+git push --set-upstream origin master #若還沒建立分支對應
 git rm --cached filename.format # 移除追蹤的檔案
 ```
 
