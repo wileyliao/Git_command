@@ -23,6 +23,7 @@ git config --list (check local setting)
 git init
 git remote add origin URL
 git pull origin main --allow-unrelated-histories
+git push --set-upstream origin master #若還沒建立分支對應
 #Check url
 git remote -v
 ```
