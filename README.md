@@ -1,6 +1,6 @@
 # Git_command
 
-## Gitignore template
+## .gitignore template
 ```
 .idea/
 .venv/
