@@ -31,6 +31,8 @@ git clone URL
 ```powershell
 git init
 git remote add origin URL
+git branch -m master main # if your new local branch is named 'master'
+git branch --set-upstream-to=origin/main main
 git pull origin main --allow-unrelated-histories
 
 #Check url
